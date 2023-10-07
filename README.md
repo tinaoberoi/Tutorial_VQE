@@ -1,4 +1,4 @@
-# Tutorial om Variational Eigen Solvers
+# Part1 : Tutorial on Variational Eigen Solvers
 
 ## Lets start with the Scrodinger equation.
 
@@ -9,19 +9,19 @@
 The scary looking time dependent Schrodinger equation.
 
 For some wave function $\Psi(\mathbf{x},t)$
-```math
 
+$$ 
 \newcommand{\pd}[2]{\frac{\partial{#1}}{\partial{#2}}}
 \newcommand{\pdd}[2]{\frac{\partial^2{#1}}{\partial{#2}^2}}
 \newcommand{\si}[0]{\Psi(\mathbf{x},t)}
 
 i \hbar \frac{\partial}{\partial t}\si = \frac{\hbar ^ 2}{2m}  \pdd \si x  + V(x)\si
 
-```
+$$
 
 How to deal with such a complex equation ? - Use Notional Hacks
 
-```math
+$$
 \newcommand{\pd}[2]{\frac{\partial{#1}}{\partial{#2}}}
 \newcommand{\pdd}[2]{\frac{\partial^2{#1}}{\partial{#2}^2}}
 \newcommand{\si}[0]{\Psi(\mathbf{x},t)}
@@ -33,15 +33,13 @@ i \hbar \frac{\partial}{\partial t}\si = (\frac{\hbar ^ 2}{2m} \frac{\partial^2{
 \\[0.5in]
 
 i \hbar \frac{\partial}{\partial t}\Psi(\mathbf{x},t) = \hat H \Psi(\mathbf{x},t)
-
-```
+$$
 
 Now we have $\hat H$ that represent the Hamiltonian of a system. Here H is function of x only.
 Its better but still a little ugly. Lets use sepapration of variables to simplify it even more.
 Since, V(x) can be very erratic, its difficult to say much about space dependence so lets deal with time dependence here.
 
-```math
-
+$$
 \newcommand{\si}[0]{\Psi(\mathbf{x},t)} 
 
 \si = \Psi(x) * \Phi(t)
@@ -49,7 +47,8 @@ Since, V(x) can be very erratic, its difficult to say much about space dependenc
 \\[0.5in]
 
 i \hbar \frac{\partial}{\partial t}\Phi(t)\Psi(x) = \hat H (\Psi(x) * \Phi(t))
-```
+
+$$
 
 Dividing both sides by $\Psi(x) * \Phi(t)$
 
