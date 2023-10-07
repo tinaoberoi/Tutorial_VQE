@@ -16,8 +16,8 @@ $$
 \newcommand{\si}[0]{\Psi(\mathbf{x},t)}
 
 i \hbar \frac{\partial}{\partial t}\si = \frac{\hbar ^ 2}{2m}  \pdd \si x  + V(x)\si
-```
 $$
+```
 
 How to deal with such a complex equation ? - Use Notional Hacks
 
