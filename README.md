@@ -12,3 +12,9 @@ The tutorial is divided into two parts
 
 If you have any suggestions to improve this repo please submit a pull request. 
 Lets make learning about `quantum` easy and less intimidating.
+
+## References
+- [A Vivid View of the Variational Quantum Eigensolver Algorithm](https://austinjhunt.medium.com/ground-states-help-to-simulanalyzing-and-implementing-variational-quantum-eigensolver-vqe-with-62ec0331b741)
+- [Dealing with Schrodinger's Equation](https://www.youtube.com/watch?v=tlTMgt11_J0)
+- [Variational Principle Introduction](https://www.youtube.com/watch?v=EhHk2M5sQ_c)
+- [A variational eigenvalue solver on a photonic quantum processor](https://www.nature.com/articles/ncomms5213)
