@@ -12,7 +12,6 @@ The tutorial is a seven part series
 - [Part4](https://github.com/tinaoberoi/Tutorial_VQE/blob/main/part4_tutorial.ipynb): This includes explaination about QUBO problems and how NP hard problems like MaxCut can be represented as a QUBO problem. This also includes how we can find Hamiltonian cost function of QUBO problems.
 - [Part5](https://github.com/tinaoberoi/Tutorial_VQE/blob/main/part5_tutorial.ipynb): This includes neccessary concepts about QAOA implementation and explaination about adiabatic QAOA.
 - [Part6](https://github.com/tinaoberoi/Tutorial_VQE/blob/main/part6_tutorial.ipynb): This includes the implementation of using QAOA to solve maxcut problem.
-- [Part7](https://github.com/tinaoberoi/Tutorial_VQE/blob/main/part7_tutorial.ipynb): This includes the cuQuantum implementation of QAOA, and also benchmarking results.
   
 If you have any suggestions to improve this repo please submit a pull request. 
 Lets make learning about `quantum` easy and less intimidating.
@@ -22,3 +21,4 @@ Lets make learning about `quantum` easy and less intimidating.
 - [Dealing with Schrodinger's Equation](https://www.youtube.com/watch?v=tlTMgt11_J0)
 - [Variational Principle Introduction](https://www.youtube.com/watch?v=EhHk2M5sQ_c)
 - [A variational eigenvalue solver on a photonic quantum processor](https://www.nature.com/articles/ncomms5213)
+- [Qiskit QAOA](https://qiskit.org/ecosystem/ibm-runtime/tutorials/qaoa_with_primitives.html)
